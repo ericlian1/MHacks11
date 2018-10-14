@@ -326,7 +326,7 @@ section
 }
 .main_nav ul li a
 {
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: 600;
 	color: #FFFFFF;
 }
@@ -1350,3 +1350,44 @@ section
 {
 	color: #FF5A60;
 }
+
+table { font-family: Open Sans, serif; }
+.stocks-container {
+  margin-bottom: 1.5em;
+  width: 100%;
+  max-width: 600px;
+}
+.stocks-container a { text-decoration: none; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.stock-symbol {
+  width: 15%;
+  padding: 2px 4px 2px 0px;
+	font-size: 24px;
+	color: #FF5A60;
+	text-decoration: none;
+}
+.stock-price, .stock-change, .stock-change-pct, .stock-mkt-cap {
+  width: 40%;
+  text-align: right;
+  padding: 2px 4px;
+	font-size: 18px;
+	color: white;
+	font-family: "Raleway";
+}
+@media (max-width: 576px) {
+  table { margin-bottom: 3em; }
+  .stock-mkt-cap { display: none; }
+  .stock-symbol { width: 16%; }
+  .stock-price, .stock-change, .stock-change-pct { width: 28%; }
+  td.stock-symbol, td.stock-price, td.stock-change, td.stock-change-pct {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+summary:hover { cursor: pointer; }
+summary::-webkit-details-marker { display: none; }
