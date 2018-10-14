@@ -1370,9 +1370,10 @@ table {
 	font-size: 24px;
 	color: #FF5A60;
 	text-decoration: none;
+	text-shadow: none;
 }
 .stock-price, .stock-change, .stock-change-pct, .stock-mkt-cap {
-  width: 40%;
+  width: 20%;
   text-align: right;
   padding: 2px 4px;
 	font-size: 18px;
