@@ -6,7 +6,7 @@ data/*.csv
 logs/*
 models/*
 checkpoints/*
-images/*
+!images/*
 .idea/
 .ipynb_checkpoints/
 tmp_data/
