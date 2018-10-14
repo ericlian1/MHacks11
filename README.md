@@ -1,5 +1,5 @@
 # MHacks11
-Goldman Sachs ML Sentiment Analysis\
+Goldman Sachs ML Sentiment Analysis
 
 Authors:
 Eric Lian, Edward Sun, Nicholas Hubbard, Grant LeBlanc
